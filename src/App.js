@@ -2,6 +2,8 @@ import '@fontsource/inter/400.css';
 import '@fontsource/merriweather/300.css';
 import './App.css';
 import Types from './Types';
+import Test from './Test';
+import ResponsiveAppBar from './NavBar';
 import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
 
 
@@ -26,7 +28,9 @@ function App() {
     <div className="App">
       <header className="App-header">
        <h1>Hello!</h1>
+       <ResponsiveAppBar />
        <Types />
+       <Test />
       </header>
     </div>
     </ThemeProvider>
