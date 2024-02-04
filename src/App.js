@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import '@fontsource/inter/400.css';
+import '@fontsource/merriweather/300.css';
 import './App.css';
+import Types from './Types';
+import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
+
+
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#E7040F'
+    },
+    secondary: {
+      main: '#E7040F'
+    },
+  },
+  typography: {
+    fontFamily: 'Merriweather',
+  }
+});
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <h1>Hello!</h1>
+       <Types />
       </header>
     </div>
+    </ThemeProvider>
   );
 }
 
