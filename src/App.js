@@ -27,7 +27,6 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <header className="App-header">
-       <h1>Hello!</h1>
        <ResponsiveAppBar />
        <Types />
        <Test />
