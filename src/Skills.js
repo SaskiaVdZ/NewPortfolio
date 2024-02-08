@@ -25,7 +25,7 @@ export default function Skills() {
           <ListItemIcon>
             <InboxIcon />
           </ListItemIcon>
-          <ListItemText primary="Inbox" />
+          <ListItemText primary="I am an experienced design professional with more than 20 years of teaching and mentoring experience and a degree in both fine art and spatial design." />
         </ListItemButton>
         <ListItemButton
           selected={selectedIndex === 1}
@@ -34,7 +34,7 @@ export default function Skills() {
           <ListItemIcon>
             <DraftsIcon />
           </ListItemIcon>
-          <ListItemText primary="Drafts" />
+          <ListItemText primary="I consider myself a life-long learner, always hungry to study and learn more. I'm a creative problem solver and I like to make things understandable by turning complex stuff into mini bite-size bits and steps. " />
         </ListItemButton>
       </List>
       <Divider />
@@ -43,13 +43,16 @@ export default function Skills() {
           selected={selectedIndex === 2}
           onClick={(event) => handleListItemClick(event, 2)}
         >
-          <ListItemText primary="Trash" />
+          <ListItemText primary="I'm dedicated, structured, analytical, curious and not afraid
+        to ask questions. I can't leave things alone until they are solved" />
         </ListItemButton>
         <ListItemButton
           selected={selectedIndex === 3}
           onClick={(event) => handleListItemClick(event, 3)}
         >
-          <ListItemText primary="Spam" />
+          <ListItemText primary="I
+        love to build and create in general but I especially love to create
+        meaning and value." />
         </ListItemButton>
       </List>
     </Box>
