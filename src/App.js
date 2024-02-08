@@ -3,6 +3,7 @@ import '@fontsource/merriweather/300.css';
 import './App.css';
 import Types from './Types';
 import Test from './Test';
+import Skills from './Skills';
 import ResponsiveAppBar from './NavBar';
 import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
 
@@ -35,6 +36,7 @@ function App() {
        <ResponsiveAppBar />
        <Types />
        <Test />
+       <Skills />
       </header>
     </div>
     </ThemeProvider>
