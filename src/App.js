@@ -9,16 +9,21 @@ import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/s
 
 
 const theme = createTheme({
+  
+  
   palette: {
     primary: {
       main: '#E7040F'
     },
     secondary: {
-      main: '#E7040F'
+      main: '#9CE5CA'
     },
   },
   typography: {
-    fontFamily: 'Merriweather',
+    fontFamily: [
+      'Merriweather',
+      'Inter'
+    ]    
   }
 });
 
