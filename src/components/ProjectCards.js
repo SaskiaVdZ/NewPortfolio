@@ -10,7 +10,6 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Collapse from '@mui/material/Collapse';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 
@@ -34,7 +33,7 @@ export default function ProjectCards () {
   };
     return (
         <Container max-width='1g' style= {{marginTop:"50px"}}>
-    <Typography variant="h4" align="center">Card</Typography>
+    <Typography variant="h3" align="center">Projects</Typography>
     <Grid container spacing ={5} style={{marginTop:"20px"}}>
         {Data.map((result,index)=>(
             <Grid item xs={12} md={4} key={index}>
@@ -42,9 +41,10 @@ export default function ProjectCards () {
 
   <Card variant="elevation" elevation={3} sx={{ maxWidth: 345 }}>
       <CardMedia
-        sx={{ height: 150 }}
+        component="img"
+        height="140"
         image={result.img}
-        title={result.title}
+        alt="project image"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -55,8 +55,8 @@ export default function ProjectCards () {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Code</Button>
-        <Button size="small">Live</Button>
+        <Button variant="outlined" size="small">Code</Button>
+        <Button variant="outlined" size="small">Live</Button>
       </CardActions>
       <CardActions disableSpacing>
       <ExpandMore
@@ -70,31 +70,20 @@ export default function ProjectCards () {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
-          <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+          <Typography variant="body2" color="text.secondary" paragraph>More:</Typography>
+          <Typography variant="body2" color="text.secondary"  paragraph>
+          We started of by deciding on a functionality and then came up with a design. We then sketched the general user flow and set up the basic project structure and made a protype in Figma. After that we divided the different features among the members of the team to get started with the logic. The team hade weekly checkin meetings and communicated continuously on Slack and Github Projects.
           </Typography>
-          <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
-            medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
-            occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
-            large plate and set aside, leaving chicken and chorizo in the pan. Add
-            pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook,
-            stirring often until thickened and fragrant, about 10 minutes. Add
-            saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+          <Typography variant="body2" color="text.secondary" paragraph>
+          Features: Drag and drop using use-gesture Create account functionality, details stored in json-server Login authentication using global state, React Context userId and position of dragged elements saved in localStorage Global state updating userId from localStorage as long as the user id logged in, to avoid state being lost on refresh, Logout function clearing global state + userId from localStorage Reset button in game to return all elements to their respective starting position Axios React routes Private routes,require login, together with useParams hook React hooks useContect useState useParams useEffect useNavigate.
           </Typography>
-          <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and
-            peppers, and cook without stirring, until most of the liquid is absorbed,
-            15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and
-            mussels, tucking them down into the rice, and cook again without
-            stirring, until mussels have opened and rice is just tender, 5 to 7
-            minutes more. (Discard any mussels that don&apos;t open.)
+          <Typography variant="body2" color="text.secondary" paragraph>
+          My contribution: I made the building elements and the drag and drop function using the @use-gesture library. I also made the profile page and the display of the user details, I came up with the idea of the game, the name and the design and made a prototype in Figma.
           </Typography>
-          <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then serve.
+          <Typography variant="body2" color="text.secondary" paragraph>
+          This game was built by Diana Undén, Saskia van der Zanden, Maria Persson, Nadine Dawod and Mo Wei Wu.
           </Typography>
+          <Typography variant="body2" color="text.secondary" paragraph>Built on: React Vite</Typography>
         </CardContent>
       </Collapse>
     </Card>
