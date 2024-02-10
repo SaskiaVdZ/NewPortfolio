@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from "react-router-dom";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -12,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import '@fontsource/inter/600.css';
+
 
 const pages = ['About', 'Projects', 'Experience', 'Skills', 'Contact'];
 
@@ -36,7 +38,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -89,7 +91,17 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">
+                    
+                    <Link 
+                    style={{textDecoration:"none", color: "red"}}
+                    
+                    to={`/${page}`}>
+
+                    {page}
+                    </Link>
+                    
+                    </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -120,7 +132,13 @@ function ResponsiveAppBar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <Link 
+                style={{textDecoration:"none", color: "white"}}
+                    
+                    to={`/${page}`}>
+
+                    {page}
+                    </Link>
               </Button>
             ))}
           </Box>
