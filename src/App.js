@@ -2,10 +2,10 @@ import { Routes, Route } from "react-router";
 import "@fontsource/inter/400.css";
 import "@fontsource/merriweather/300.css";
 import "./App.css";
-import Skills from "./components/Skills";
 import ResponsiveAppBar from "./components/NavBar";
-import Projects from "./components/Projects";
 import About from './components/About';
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 
