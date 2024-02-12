@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Container from "@mui/material/Container";
 import {
   createTheme,
   ThemeProvider,
@@ -34,7 +35,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
+      <Container fixed className="App">
         <header className="App-header">
           <ResponsiveAppBar />
           <Routes>
@@ -46,7 +47,7 @@ function App() {
             <Route path="Contact" element={<Contact />} />
           </Routes>
         </header>
-      </div>
+        </Container> 
     </ThemeProvider>
   );
 }
