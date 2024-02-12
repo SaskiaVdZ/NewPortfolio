@@ -8,8 +8,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-
-
 import {
   createTheme,
   ThemeProvider,
@@ -29,7 +27,9 @@ const theme = createTheme({
   typography: {
     fontFamily: ["Merriweather", "Inter"],
   },
+  paper: { elevation: 0, borderRadius: 20, borderColor: "#000", padding: 50 }
 });
+
 
 function App() {
   return (
