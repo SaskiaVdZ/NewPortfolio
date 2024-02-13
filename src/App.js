@@ -35,7 +35,8 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Container fixed className="App">
+      <Container maxWidth="lg" 
+      sx={{ bgcolor: "red" }} className="App">
         <header className="App-header">
           <ResponsiveAppBar />
           <Routes>
