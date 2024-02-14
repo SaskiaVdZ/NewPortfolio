@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import '@fontsource/inter/600.css';
 
 
-const pages = ['About', 'Projects', 'Experience', 'Skills', 'Contact'];
+const pages = ['About', 'NewAbout', 'Projects', 'Experience', 'Skills', 'Contact'];
 
 
 function ResponsiveAppBar() {
@@ -39,7 +39,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar position="fixed">
-      <Container maxWidth="lg">
+      <Container>
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography

@@ -4,11 +4,13 @@ import "@fontsource/merriweather/300.css";
 import "./App.css";
 import ResponsiveAppBar from "./components/NavBar";
 import About from './components/About';
+import NewAbout from './components/NewAbout';
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Container from "@mui/material/Container";
+
 import {
   createTheme,
   ThemeProvider,
@@ -35,20 +37,20 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="lg" 
-      sx={{ bgcolor: "red" }} className="App">
+      <Container className="App"> 
         <header className="App-header">
           <ResponsiveAppBar />
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="About" element={<About />} />
+            <Route path="NewAbout" element={<NewAbout />} />
             <Route path="Projects" element={<Projects />} />
             <Route path="Experience" element={<Experience />} />
             <Route path="Skills" element={<Skills />} />
             <Route path="Contact" element={<Contact />} />
           </Routes>
         </header>
-        </Container> 
+      </Container>
     </ThemeProvider>
   );
 }

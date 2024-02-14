@@ -6,18 +6,21 @@ import Banner from "./images/Banner1280.png";
 
 function About() {
   return (
-    <Container maxWidth="lg"
-        style={{ marginTop: "0px", backgroundColor:"skyblue"}}>
+    <Container 
+        style={{ margin: "0px", padding: "0px", backgroundColor:"skyblue"}}>
       <Grid
         container
         spacing={3}
         direction="column"
         justify="center"
-        style={{ margin: "0px" }}
+        style={{ margin: "0px", padding: "0px"}}
       >
-        <Grid item xs={10}>
+        <Grid item xs={10}
+        style={{ margin:"0px", padding:"0px" }}>
           <Paper>
-       <img src={Banner} xs={{ maxWidth: "600" }} />
+       <img src={Banner} />
+       </Paper>
+       <Paper>
             <Typography variant="h3" padding={5}>
               Hi! My name is Saskia.
             </Typography>
@@ -29,7 +32,7 @@ function About() {
               and looking forward to dive into Data Visualisation D3.js at the
               New York University, shortly.
             </Typography>
-          </Paper>
+            </Paper>
         </Grid>
         <Grid 
         container
