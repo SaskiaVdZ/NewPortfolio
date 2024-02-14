@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import '@fontsource/inter/600.css';
 
 
-const pages = ['About', 'NewAbout', 'Projects', 'Experience', 'Skills', 'Contact'];
+const pages = ['About', 'Projects', 'Experience', 'Skills', 'Contact'];
 
 
 function ResponsiveAppBar() {

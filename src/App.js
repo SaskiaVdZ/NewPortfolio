@@ -4,7 +4,7 @@ import "@fontsource/merriweather/300.css";
 import "./App.css";
 import ResponsiveAppBar from "./components/NavBar";
 import About from './components/About';
-import NewAbout from './components/NewAbout';
+import NewAbout from './components/MoreAbout';
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from './components/Experience';
@@ -14,9 +14,8 @@ import Container from "@mui/material/Container";
 import {
   createTheme,
   ThemeProvider,
-  responsiveFontSizes,
 } from "@mui/material/styles";
-import { Router } from "@mui/icons-material";
+
 
 const theme = createTheme({
   palette: {
@@ -43,7 +42,6 @@ function App() {
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="About" element={<About />} />
-            <Route path="NewAbout" element={<NewAbout />} />
             <Route path="Projects" element={<Projects />} />
             <Route path="Experience" element={<Experience />} />
             <Route path="Skills" element={<Skills />} />

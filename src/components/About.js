@@ -1,14 +1,17 @@
 import Grid from "@mui/material/Grid";
-import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Banner from "./images/Banner1280.png";
+import MoreAbout from "./MoreAbout";
 
 
 function About() {
     return (
-      <Grid container>
-        <img src={Banner} />
+      <>
+      <Grid container
+      justify="center"
+      overflow="hidden">
+       <Grid><img src={Banner} alt="Floating components"/></Grid>
         <Grid item><Paper>
             <Typography variant="h4" padding={5}>
               Hi! My name is Saskia.
@@ -23,6 +26,8 @@ function About() {
             </Typography>
             </Paper></Grid>
         </Grid>
+      <MoreAbout />
+      </>
     );
   }
   
