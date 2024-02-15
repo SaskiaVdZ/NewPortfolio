@@ -4,7 +4,6 @@ import "@fontsource/merriweather/300.css";
 import "./App.css";
 import ResponsiveAppBar from "./components/NavBar";
 import About from './components/About';
-import NewAbout from './components/MoreAbout';
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from './components/Experience';
