@@ -26,10 +26,21 @@ const ExpandMore = styled((props) => {
 
 export default function ProjectsTwo() {
   const [expanded1, setExpanded1] = React.useState(false);
+  const [expanded2, setExpanded2] = React.useState(false);
+  const [expanded3, setExpanded3] = React.useState(false);
 
   const handleExpandClick1 = () => {
     setExpanded1(!expanded1);
   };
+
+  const handleExpandClick2 = () => {
+    setExpanded2(!expanded2);
+  };
+
+  const handleExpandClick3 = () => {
+    setExpanded3(!expanded3);
+  };
+
   return (
     <Container maxWidth="sm" style={{ marginTop: "50px" }}>
       <Typography variant="h3" align="center">
@@ -61,16 +72,20 @@ export default function ProjectsTwo() {
                   Live
                 </Button>
               </CardActions>
+
               <CardActions disableSpacing>
                 <ExpandMore
-                  expand={expanded1}
-                  onClick={handleExpandClick1}
-                  aria-expanded={expanded1}
+                  expand={expanded1, expanded2}
+                  onClick={handleExpandClick1, handleExpandClick2}
+                  aria-expanded={expanded1, expanded2}
                   aria-label="show more"
                 >
                   <ExpandMoreIcon />
                 </ExpandMore>
               </CardActions>
+
+             
+
               <Collapse in={expanded1} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography variant="body2" color="text.secondary" paragraph>
@@ -114,6 +129,18 @@ export default function ProjectsTwo() {
                   </Typography>
                 </CardContent>
               </Collapse>
+
+              <Collapse in={expanded2} timeout="auto" unmountOnExit>
+                <CardContent>
+                  <Typography variant="body2" color="text.secondary" paragraph>
+                    More:
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" paragraph>
+                   Bla bla bla.
+                  </Typography>
+                </CardContent>
+              </Collapse>
+
             </Card>
           </Grid>
         ))}
