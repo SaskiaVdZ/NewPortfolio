@@ -1,8 +1,12 @@
 import Obfuscate from 'react-obfuscate';
+import AccordionProjects from './Accordion';
+
 
 function Contact() {
     return (
-      <p>
+      <>
+    <AccordionProjects />
+    <p>
       Phone: <Obfuscate tel="073-8422905" />
       <br />
       Email:{' '}
@@ -14,6 +18,7 @@ function Contact() {
         }}
       />
     </p>
+    </>
     );
   }
   
