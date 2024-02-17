@@ -14,6 +14,7 @@ import {
   createTheme,
   ThemeProvider,
 } from "@mui/material/styles";
+import ProjectsTwo from "./components/ProjectsTwo";
 
 
 const theme = createTheme({
@@ -45,6 +46,7 @@ function App() {
             <Route path="Experience" element={<Experience />} />
             <Route path="Skills" element={<Skills />} />
             <Route path="Contact" element={<Contact />} />
+            <Route path="ProjectsTwo" element={<ProjectsTwo />} />
           </Routes>
         </header>
       </Container>
