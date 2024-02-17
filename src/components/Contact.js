@@ -1,11 +1,9 @@
 import Obfuscate from 'react-obfuscate';
-import AccordionProjects from './Accordion';
 
 
 function Contact() {
     return (
       <>
-    <AccordionProjects />
     <p>
       Phone: <Obfuscate tel="073-8422905" />
       <br />
