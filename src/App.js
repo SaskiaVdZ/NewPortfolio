@@ -19,10 +19,10 @@ import {
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#E7040F",
+      main: "#E7040F", //Red
     },
     secondary: {
-      main: "#9CE5CA",
+      main: "#9CE5CA", //Mint green
     },
   },
   typography: {
