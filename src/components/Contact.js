@@ -2,18 +2,11 @@ import Obfuscate from 'react-obfuscate';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import { Link } from "react-router-dom";
-import Typewriter from 'typewriter-effect';
+
 
 function Contact() {
     return (
       <>
-       <Typewriter
-        options={{
-          strings: ['Hello', 'World'],
-          autoStart: true,
-          loop: true,
-        }}
-      />
     <Link style={{textDecoration:"none", color: "red"}}  
           to='https://github.com/SaskiaVdZ'
           target="_blank"

@@ -3,6 +3,8 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Banner from "./images/Banner1280.png";
 import MoreAbout from "./MoreAbout";
+import Typewriter from 'typewriter-effect';
+import CardMedia from "@mui/material/CardMedia";
 
 
 function About() {
@@ -11,11 +13,21 @@ function About() {
       <Grid container
       justify="center"
       overflow="hidden">
-       <Grid><img src={Banner} alt="Floating components"/></Grid>
-        <Grid item><Paper>
-            <Typography variant="h4" padding={5}>
-              Hi! My name is Saskia.
-            </Typography>
+        <CardMedia
+                component="img"
+                height="400"
+                image={Banner}
+                alt="Floating components"
+              />
+        <Grid item>
+          <Paper>
+        <Typewriter className="Type"
+        options={{
+          strings: ['Hi! My name is Saskia', 'Welcome to my portfolio', 'here you can read about who I am', 'and see some of my projects'],
+          autoStart: true,
+          loop: true,
+        }}
+      />
             <Typography variant="h4" textAlign="left" padding={5}>
               I am a curious junior front-end developer who just finished a
               full-time accelerated vocational course at Sundsgården
