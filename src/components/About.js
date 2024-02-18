@@ -13,15 +13,17 @@ function About() {
       <Grid container
       justify="center"
       overflow="hidden">
-        <CardMedia
+       
+        <Grid item sx={{marginTop:'100px', marginBottom:'16px'}}>
+       
+          <Paper sx={{color:'primary.main', backgroundColor:'primary.accent', borderRadius:'8px'}} elevation= {0}>
+          <CardMedia sx={{borderRadius:'8px'}}
                 component="img"
                 height="400"
                 image={Banner}
                 alt="Floating components"
               />
-        <Grid item>
-          <Paper>
-        <Typewriter className="Type"
+              <Typewriter className="Type"
         options={{
           strings: ['Hi! My name is Saskia', 'Welcome to my portfolio', 'here you can read about who I am', 'and see some of my projects'],
           autoStart: true,
