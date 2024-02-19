@@ -19,7 +19,7 @@ import {
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#E7040F", //Dark-Red
+      main: "#FFFFF", //White background navbar
       light: "#FFDFDF", //Washed-Red
       accent: "#FBF1A9", // Light-yellow
     },
@@ -29,6 +29,9 @@ const theme = createTheme({
       accent: "#FFD700", // Dark-yellow
       accent2:"#e0dafc", //Light purple
     },
+    tertiary: {
+      main: "#E7040F", // Dark-red
+    }
   },
   typography: {
     fontFamily: ["Merriweather", "Inter"],

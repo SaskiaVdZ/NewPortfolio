@@ -29,7 +29,7 @@ function Contact() {
         email="saskiavanderzanden@gmail.com"
       />
     
-    Made with<i className="fa-solid fa-heart"></i>in React by Saskia van
+    Made with<i className="fa-solid fa-heart"></i>in React and Material Design UI by Saskia van
           der Zanden
     </>
     );

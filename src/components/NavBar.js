@@ -41,24 +41,6 @@ function ResponsiveAppBar() {
     <AppBar position="fixed">
       <Container>
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'inter',
-              fontWeight: 600,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            PORTFOLIO
-          </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -67,7 +49,7 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="#E7040F"
             >
               <MenuIcon />
             </IconButton>
@@ -94,7 +76,7 @@ function ResponsiveAppBar() {
                   <Typography textAlign="center">
                     
                     <Link 
-                    style={{textDecoration:"none", color: "red"}}
+                    style={{textDecoration:"none", color: "#E7040F"}}
                     
                     to={`/${page}`}>
 
@@ -106,34 +88,16 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            PORTFOLIO
-          </Typography>
+        
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: '#E7040F', display: 'block' }}
               >
                 <Link 
-                style={{textDecoration:"none", color: "white"}}
+                style={{textDecoration:"none", color: "#E7040F"}} //Links navbar
                     
                     to={`/${page}`}>
 
@@ -144,7 +108,7 @@ function ResponsiveAppBar() {
           </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, color: "#E7040F" }}>
               </IconButton>
             </Tooltip>
           </Box>
