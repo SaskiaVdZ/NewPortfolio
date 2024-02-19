@@ -19,24 +19,30 @@ import {
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#FFFFF", //White background navbar
-      light: "#FFDFDF", //Washed-Red
-      accent: "#FBF1A9", // Light-yellow
+      main: "#FFFFF", //White (background navbar)
+      accent1: "#FBF1A9", // Light-yellow
+      accent2: "#E8FDF5", //Washed-green
+      accent3: "#FFDFDF", //Washed-Red
+      accent4: "#E0DAFC", //Light purple
+      accent5:"#9CE5CA", //Mint-green
+      accent6: "#FFD700", // Dark-yellow
     },
-    secondary: {
-      main: "#9CE5CA", //Mint-green
-      light: "#E8FDF5", //Washed-green
-      accent: "#FFD700", // Dark-yellow
-      accent2:"#e0dafc", //Light purple
-    },
-    tertiary: {
-      main: "#E7040F", // Dark-red
+  
+    text: {
+      primary:"#E7040F",
     }
   },
+ 
   typography: {
     fontFamily: ["Merriweather", "Inter"],
   },
-  paper: { elevation: 0, borderRadius: 20, borderColor: "#000", padding: 50 }
+  
+  paper: { 
+    elevation: 0, borderRadius: 20, borderColor: "#000", padding: 50 },
+
+  shape: {
+    borderadius: 16,
+  }
 });
 
 

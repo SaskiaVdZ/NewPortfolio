@@ -16,13 +16,13 @@ import Data from "../Data.json";
 export default function AccordionProjects() {
   return (
 <>
-    <Typography variant="h3" align="center">
+    <Typography variant="h3" align="center" margin="6rem 0 3rem">
         Projects
       </Typography>
     <Grid container>
         {Data.map((result,index)=>(
             <Grid item key={index}>
-      <Card variant="elevation" elevation={3} style={{ margin: "20px" }}>
+      <Card variant="elevation" elevation={1} style={{ margin: "20px", borderRadius:'16px' }}>
       <CardMedia
                 component="img"
                 height="140"
@@ -33,6 +33,7 @@ export default function AccordionProjects() {
         <AccordionSummary
           aria-controls="panel1-content"
           id="panel1-header"
+          
         >
             <Stack spacing={2}>
           <Typography variant="h5">{result.title}</Typography>

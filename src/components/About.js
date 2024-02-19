@@ -16,7 +16,7 @@ function About() {
        
         <Grid item sx={{marginTop:'100px', marginBottom:'16px'}}>
        
-          <Paper sx={{color:'primary.main', backgroundColor:'primary.accent', borderRadius:'8px'}} elevation= {0}>
+          <Paper sx={{backgroundColor:'primary.accent1', borderRadius:'8px'}} elevation= {0}>
           <CardMedia sx={{borderRadius:'8px'}}
                 component="img"
                 height="400"
