@@ -14,7 +14,7 @@ function About() {
       justify="center"
       overflow="hidden">
        
-        <Grid item sx={{marginTop:'100px', marginBottom:'16px'}}>
+        <Grid item sx={{mt:15, mb:6}}>
        
           <Paper sx={{backgroundColor:'primary.accent1', borderRadius:'8px'}} elevation= {0}>
           <CardMedia sx={{borderRadius:'8px'}}
