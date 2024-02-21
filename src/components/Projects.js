@@ -11,7 +11,7 @@ import Stack from "@mui/material/Stack";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import Data from "../Data.json";
+import DataProjects from "../DataProjects.json";
 
 export default function AccordionProjects() {
   return (
@@ -20,7 +20,7 @@ export default function AccordionProjects() {
         Projects
       </Typography>
     <Grid container>
-        {Data.map((result,index)=>(
+        {DataProjects.map((result,index)=>(
             <Grid item key={index}>
       <Card variant="elevation" elevation={1} style={{ margin: "20px", borderRadius:'16px' }}>
       <CardMedia

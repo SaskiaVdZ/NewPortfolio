@@ -35,6 +35,7 @@ export default function Experience() {
               <Typography>{result.where2} </Typography>
               <Typography>{result.when}</Typography>
               <Typography>{result.what}</Typography>
+              <Typography>{result.what2}</Typography>
               <Divider variant="middle" sx={{ mb: 4, mt: 4 }} />
             </Grid>
           ))}

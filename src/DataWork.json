@@ -17,6 +17,46 @@
         "where": "Pihlskolan, Hällefors",
         "when": "2019 – 2020",
         "what": "Teacher SFI, Swedish for immigrants"
+    },
+    {
+        "id":4,
+        "where": "Pihlskolan, Hällefors",
+        "when": "2016 – 2019",
+        "what": "Teacher SVA, Swedish as a second language",
+        "what2": "High School education"
+        
+    },
+    {
+        "id":5,
+        "where": "Hällefors Folkhögskola",
+        "when": "2008 – 2015",
+        "what": "Head teacher, Interior Architecture & Design"
+    },
+    {
+        "id":6,
+        "where": "Hällefors Folkhögskola",
+        "when": "2007 – 2008",
+        "what": "Teacher, Form & Design"
+    },
+    {
+        "id":7,
+        "where": "Hoganord Studios",
+        "when": "2004 – 2009",
+        "what": "Co-owner and designer, Graphic design & Web design"
+    },
+    {
+        "id":8,
+        "where": "KUUB design studio, Amsterdam",
+        "when": "2001 – 2003",
+        "what": "Co-owner and interior designer"
+    },
+    {
+        "id":9,
+        "where": "De Architect, Dutch architecture magazine",
+        "when": "2001 – 2005",
+        "what": "Freelance writer"
     }
+
+
 
 ]
