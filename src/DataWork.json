@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "where": "Self-employed at FIK design courses",
+        "when": "2017 – now",
+        "what": "Preparatory interior architecture & design course"
+
+    },
+    {
+        "id":2,
+        "where": "BOAB, Hällefors Bostads AB, Housing Association",
+        "when": "2019 – 2021",
+        "what": "Chairman"
+    },
+    {
+        "id":3,
+        "where": "Pihlskolan, Hällefors",
+        "when": "2019 – 2020",
+        "what": "Teacher SFI, Swedish for immigrants"
+    }
+
+]

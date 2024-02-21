@@ -12,7 +12,7 @@ import Divider from "@mui/material/Divider";
 function ContactFooter() {
     return (
       <>
-<Stack spacing={2} mt={10} mb={5}  >
+<Stack spacing={1} mt={10} mb={5}  >
   <Typography textAlign="center">Made with <i className="fa-solid fa-heart"></i> in React and Material Design UI by Saskia van der Zanden</Typography>
   <Stack direction="row" spacing={3} alignItems="center" >
   <Typography textAlign="left">

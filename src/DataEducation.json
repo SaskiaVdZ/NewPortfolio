@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "where": "Sundsgården folkhögskola",
+        "when": "2023",
+        "what": "Tech for Women, Front end development, Certification"
+
+    },
+    {
+        "id":2,
+        "where": "freeCodeCamp",
+        "when": "2023",
+        "what": "Responsive Webdesign Developer Certification"
+    },
+    {
+        "id":3,
+        "where": "KBT Svealand AB",
+        "where2": "Utbildningcenter för Kognitiv Beteendeterapi",
+        "when": "2021",
+        "what": "Introduction Course CBT, Cognitive Behavioral Therapy"
+    }
+
+]
