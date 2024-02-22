@@ -33,11 +33,9 @@ export default function AccordionProjects() {
         <AccordionSummary
           aria-controls="panel1-content"
           id="panel1-header"
-          
-          
         >
             <Stack spacing={2}>
-          <Typography variant="h5">{result.title}</Typography>
+          <Typography variant="h4">{result.title}</Typography>
           <Typography variant="h6" align="left">
           {result.intro}
           </Typography>
@@ -46,23 +44,23 @@ export default function AccordionProjects() {
         </AccordionSummary>
         <AccordionDetails>
         <Stack spacing={2}>
-        <Typography variant="body1" align="left">
+        <Typography variant="h6" align="left">
         {result.par1}
           </Typography>
-          <Typography variant="body1" align="left">
+          <Typography variant="h6" align="left">
           {result.par2}
           </Typography>
-          <Typography variant="body1" align="left">
+          <Typography variant="h6" align="left">
           {result.par3}
           </Typography>
-          <Typography variant="body1" align="left">
+          <Typography variant="h6" align="left">
           {result.par4}
           </Typography>
           </Stack>
         </AccordionDetails>
         <AccordionActions>
-          <Button variant="outlined" size="small">Code</Button>
-          <Button variant="outlined" size="small">Live</Button>
+          <Button variant="contained" size="large" align="center" color="secondary">Code</Button>
+          <Button variant="outlined" size="large" align="center">Live</Button>
         </AccordionActions>
       </Accordion>
       </Card>

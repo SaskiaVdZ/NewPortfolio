@@ -37,7 +37,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed" elevation={0}>
       <Container>
         <Toolbar disableGutters>
 
@@ -74,7 +74,7 @@ function ResponsiveAppBar() {
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     
-                    <Link 
+                    <Link
                     style={{textDecoration:"none", color: "#E7040F"}}
                     
                     to={`/${page}`}>
@@ -96,7 +96,7 @@ function ResponsiveAppBar() {
                 sx={{ my: 2, color: '#E7040F', display: 'block' }}
               >
                 <Link 
-                style={{textDecoration:"none", color: "#E7040F"}} //Links navbar
+                style={{textDecoration:"none", color: "#E7040F", fontSize:"16px"}} //Links navbar
                     
                     to={`/${page}`}>
 

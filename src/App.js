@@ -17,6 +17,7 @@ import ContactFooter from "./components/Contact";
 
 
 const theme = createTheme({
+  
   palette: {
     primary: {
       main: "#FFFFF", //White (background navbar)
@@ -34,6 +35,9 @@ const theme = createTheme({
   },
  
   typography: {
+    allVariants: {
+      color: "#E7040F"
+    },
     fontFamily: ["Inter"],
   },
   
