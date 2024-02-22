@@ -34,7 +34,7 @@ const theme = createTheme({
   },
  
   typography: {
-    fontFamily: ["Merriweather", "Inter"],
+    fontFamily: ["Inter"],
   },
   
   paper: { 
@@ -50,7 +50,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Container className="App"> 
-        <header className="App-header">
           <ResponsiveAppBar />
           <Routes>
             <Route path="/" element={<About />} />
@@ -60,7 +59,6 @@ function App() {
             <Route path="Skills" element={<Skills />} />
           </Routes>
           <ContactFooter />
-        </header>
       </Container>
     </ThemeProvider>
   );

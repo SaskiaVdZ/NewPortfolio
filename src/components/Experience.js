@@ -13,29 +13,29 @@ export default function Experience() {
       </Typography>
       <Grid container justifyContent="space-evenly">
         <Grid item>
-          <Typography variant="h5" align="center" sx={{ mb: 2 }}>
+          <Typography variant="h5" align="left" sx={{ mb: 2 }}>
             Work
           </Typography>
           {DataWork.map((result, index) => (
             <Grid item key={index}>
-              <Typography>{result.where} </Typography>
-              <Typography>{result.when}</Typography>
-              <Typography>{result.what}</Typography>
+              <Typography variant="h6" align="left">{result.where} </Typography>
+              <Typography variant="h6" align="left" fontStyle="italic">{result.when}</Typography>
+              <Typography variant="h6" align="left">{result.what}</Typography>
               <Divider variant="middle" sx={{ mb: 4, mt: 4 }} />
             </Grid>
           ))}
         </Grid>
         <Grid item>
-          <Typography variant="h5" align="center" sx={{ mb: 2 }}>
+          <Typography variant="h5" align="left" sx={{ mb: 2 }}>
             Education
           </Typography>
           {DataEducation.map((result, index) => (
             <Grid item key={index}>
-              <Typography>{result.where} </Typography>
-              <Typography>{result.where2} </Typography>
-              <Typography>{result.when}</Typography>
-              <Typography>{result.what}</Typography>
-              <Typography>{result.what2}</Typography>
+              <Typography variant="h6" align="left">{result.where} </Typography>
+              <Typography variant="h6" align="left">{result.where2} </Typography>
+              <Typography variant="h6" align="left" fontStyle="italic">{result.when}</Typography>
+              <Typography variant="h6" align="left">{result.what}</Typography>
+              <Typography variant="h6" align="left">{result.what2}</Typography>
               <Divider variant="middle" sx={{ mb: 4, mt: 4 }} />
             </Grid>
           ))}

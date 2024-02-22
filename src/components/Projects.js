@@ -22,7 +22,7 @@ export default function AccordionProjects() {
     <Grid container>
         {DataProjects.map((result,index)=>(
             <Grid item key={index}>
-      <Card variant="elevation" elevation={1} style={{ margin: "20px", borderRadius:'16px' }}>
+      <Card variant="elevation" elevation={1} style={{ m: 2, borderRadius:'16px' }} >
       <CardMedia
                 component="img"
                 height="140"
@@ -34,10 +34,11 @@ export default function AccordionProjects() {
           aria-controls="panel1-content"
           id="panel1-header"
           
+          
         >
             <Stack spacing={2}>
           <Typography variant="h5">{result.title}</Typography>
-          <Typography>
+          <Typography variant="h6" align="left">
           {result.intro}
           </Typography>
           <ExpandMoreIcon />
@@ -45,16 +46,16 @@ export default function AccordionProjects() {
         </AccordionSummary>
         <AccordionDetails>
         <Stack spacing={2}>
-        <Typography>
+        <Typography variant="body1" align="left">
         {result.par1}
           </Typography>
-          <Typography>
+          <Typography variant="body1" align="left">
           {result.par2}
           </Typography>
-          <Typography>
+          <Typography variant="body1" align="left">
           {result.par3}
           </Typography>
-          <Typography>
+          <Typography variant="body1" align="left">
           {result.par4}
           </Typography>
           </Stack>
