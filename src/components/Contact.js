@@ -16,7 +16,7 @@ function ContactFooter() {
         </Typography>
         <Stack direction={{xs:'column', sm:'row'}} alignItems="center">
           <Typography textAlign="left" sx={{ mx: 1 }}>
-            <PhoneIcon fontSize="small" />{" "}
+            <PhoneIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
             <Obfuscate
               style={{ textDecoration: "none", color: "red" }}
               tel="073-8422905"
@@ -24,7 +24,7 @@ function ContactFooter() {
           </Typography>
           <Divider orientation="vertical" variant="middle" flexItem />
           <Typography textAlign="left" sx={{ mx: 1 }}>
-            <EmailIcon fontSize="small" />{" "}
+            <EmailIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
             <Obfuscate
               style={{ textDecoration: "none", color: "red" }}
               email="saskiavanderzanden@gmail.com"
