@@ -16,7 +16,7 @@ export default function Skills() {
         Skills
       </Typography>
     <Grid container spacing={2}>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <Paper  sx={{ backgroundColor:'primary.accent3', borderRadius:'8px'}}>
           <BuildIcon sx={{ mt: 4 , fontSize: '4rem' }}  />
           <Typography sx={{ mb: 2, p:5 }}  variant="h6">
@@ -24,7 +24,7 @@ export default function Skills() {
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <Paper sx={{ backgroundColor:'primary.accent3', borderRadius:'8px'}}>
           <ConstructionRoundedIcon sx={{ mt: 4, fontSize: '4rem' }} />
           <Typography sx={{ mb: 2, p:5 }}  variant="h6">
@@ -32,7 +32,7 @@ export default function Skills() {
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <Paper sx={{ backgroundColor:'primary.accent3', borderRadius:'8px'}}>
           <LanguageRoundedIcon sx={{ mt: 4 , fontSize: '4rem'}} />
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
@@ -40,7 +40,7 @@ export default function Skills() {
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <Paper sx={{ backgroundColor:'primary.accent3', borderRadius:'8px'}}>
           <HandshakeRoundedIcon sx={{ mt: 4, fontSize: '4rem'  }}/>
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
@@ -48,7 +48,7 @@ export default function Skills() {
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <Paper sx={{ backgroundColor:'primary.accent3', borderRadius:'8px'}}>
           <ComputerRoundedIcon sx={{ mt: 4, fontSize: '4rem' }}/>
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
@@ -56,7 +56,7 @@ export default function Skills() {
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <Paper sx={{ backgroundColor:'primary.accent3', borderRadius:'8px'}}>
           <BrushRoundedIcon sx={{ mt: 4, fontSize: '4rem' }}/>
           <Typography sx={{ mb: 2 , p: 5}} variant="h6">
