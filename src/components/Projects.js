@@ -25,8 +25,8 @@ export default function AccordionProjects() {
             <Card
               variant="elevation"
               elevation={1}
-              sx={{ maxWidth: 'sm' }}
-              style={{ m: 2, borderRadius: "16px" }}
+              sx={{ maxWidth: 'sm', m: 2 }}
+              style={{ borderRadius: "16px" }}
             >
               <CardMedia
                 component="img"
