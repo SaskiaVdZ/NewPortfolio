@@ -12,6 +12,7 @@ import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import DataProjects from "../DataProjects.json";
+import Paper from "@mui/material/Paper";
 
 export default function AccordionProjects() {
   return (
@@ -19,7 +20,7 @@ export default function AccordionProjects() {
       <Typography variant="h3" align="center" margin="6rem 0 3rem">
         Projects
       </Typography>
-      <Grid container >
+      <Grid container justifyContent="space-evenly" >
         {DataProjects.map((result, index) => (
           <Grid item key={index}>
             <Card
@@ -81,6 +82,32 @@ export default function AccordionProjects() {
           </Grid>
         ))}
       </Grid>
+      <Paper component={Stack} direction="column" justifyContent="center"
+            style={{backgroundImage: "linear-gradient(#FBF1A9,#9CE5CA)",
+            color: "red",}}
+            
+            sx={{ width: 1/2 , height: 200}}
+    
+            ><Typography variant="h3" >REACT </Typography>
+            <Typography variant="h5">Drag 'n Drop Game</Typography></Paper>
+        <Paper component={Stack} direction="column" justifyContent="center"
+            style={{backgroundImage: "linear-gradient(#FBF1A9,#9CE5CA)",
+            color: "red",}}
+            
+            sx={{ width: 1/2 , height: 200}}
+    
+            ><Typography variant="h3" >JAVASCRIPT</Typography>
+            <Typography variant="h5">Expense & Income Tracker</Typography>
+            </Paper>
+    <Paper component={Stack} direction="column" justifyContent="center"
+            style={{backgroundImage: "linear-gradient(#FBF1A9,#9CE5CA)",
+            color: "red",}}
+            
+            sx={{ width: 1/2 , height: 200}}
+    
+            ><Typography variant="h3" >HTML, CSS & SASS</Typography>
+            <Typography variant="h5">Portfolio Website</Typography>
+            </Paper>
     </>
   );
 }
