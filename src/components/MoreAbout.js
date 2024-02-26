@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-
+import { sizing } from '@mui/system';
 
 
 function MoreAbout() {
@@ -12,9 +12,9 @@ function MoreAbout() {
         spacing={3}
         direction="row"
         justify="center"
-        alignItems="flex-start"
+        alignItems="stretch"
         >
-        <Grid item xs={12} sm={6} md={4}
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}} 
         >
           <Paper sx={{backgroundColor:'primary.accent3', borderRadius:'16px'}}>
             <Typography variant="h5" padding={5}>
@@ -23,7 +23,7 @@ function MoreAbout() {
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}   >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I consider myself a life-long learner, always hungry to study and
@@ -31,7 +31,7 @@ function MoreAbout() {
             </Typography >
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}    >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I&#39;m a creative problem solver and I like to make things
@@ -40,7 +40,7 @@ function MoreAbout() {
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}  >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I&#39;m dedicated, structured, analytical, curious and not afraid
@@ -48,21 +48,21 @@ function MoreAbout() {
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}   >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I can't leave things alone until they are solved.
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}    >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
              I love to build and create in general but I especially love to create meaning and value.
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}  >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I live in a small place called Sångshyttan, in Bergslagen, right
@@ -70,7 +70,7 @@ function MoreAbout() {
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}  >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I moved from Amsterdam to Sweden
@@ -78,7 +78,7 @@ function MoreAbout() {
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}   >
           <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               In my spare time I like to read, write, draw, do yoga and walk
