@@ -24,10 +24,7 @@ export default function AccordionProjects() {
         {DataProjects.map((result, index) => (
           <Grid item key={index}>
             <Card
-              variant="elevation"
-              elevation={1}
               sx={{ maxWidth: 'sm', m: 2 }}
-              style={{ borderRadius: "16px" }}
             >
               <CardMedia
                 component="img"
