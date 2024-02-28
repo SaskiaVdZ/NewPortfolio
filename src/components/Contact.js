@@ -9,11 +9,11 @@ import Divider from "@mui/material/Divider";
 function ContactFooter() {
   return (
     <>
-      <Stack alignItems="center" spacing={{xs:'1', sm:'3'}} mt={5} mb={5}>
+      <Stack direction={{xs:'column', lg:'row'}} alignItems="center" spacing={{xs:'1', sm:'3'}} mt={5} mb={5}>
         <Typography textAlign="center">
           Made with <i className="fa-solid fa-heart"></i> in React and Material
-          Design UI by Saskia van der Zanden
-        </Typography>
+          Design UI </Typography><Typography> by Saskia van der Zanden</Typography>
+        
         <Stack direction={{xs:'column', sm:'row'}} alignItems="center">
           <Typography textAlign="left" sx={{ mx: 1 }}>
             <PhoneIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
@@ -31,7 +31,7 @@ function ContactFooter() {
             />
           </Typography>
           <Divider orientation="vertical" variant="middle" flexItem />
-          <Typography variant="h6" textAlign="left"sx={{ mx: 1 }} >
+          <Typography variant="h6" textAlign="left" sx={{ mx: 1 }} >
             <Link
               style={{ textDecoration: "none", color: "red" }}
               to="https://github.com/SaskiaVdZ"
@@ -41,8 +41,6 @@ function ContactFooter() {
             >
               <i className="fa-brands fa-github"></i>
             </Link>
-          </Typography>
-          <Typography variant="h6" textAlign="left" sx={{ mx: 1 }} >
             <Link
               style={{ textDecoration: "none", color: "red" }}
               to="https://www.linkedin.com/in/saskia-van-der-zanden-2b036b72/"
