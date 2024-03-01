@@ -13,7 +13,6 @@ function ContactFooter() {
         <Typography textAlign="center">
           Made with <i className="fa-solid fa-heart"></i> in React and Material
           Design UI </Typography><Typography> by Saskia van der Zanden</Typography>
-        
         <Stack direction={{xs:'column', sm:'row'}} alignItems="center">
           <Typography textAlign="left" sx={{ mx: 1 }}>
             <PhoneIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
@@ -22,15 +21,13 @@ function ContactFooter() {
               tel="073-8422905"
             />
           </Typography>
-          <Divider orientation="vertical" variant="middle" flexItem />
-          <Typography textAlign="left" sx={{ mx: 1 }}>
+          <Typography textAlign="left" sx={{ mx: 1 }} >
             <EmailIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
             <Obfuscate
               style={{ textDecoration: "none", color: "red" }}
               email="saskiavanderzanden@gmail.com"
             />
           </Typography>
-          <Divider orientation="vertical" variant="middle" flexItem />
           <Typography variant="h6" textAlign="left" sx={{ mx: 1 }} >
             <Link
               style={{ textDecoration: "none", color: "red" }}
