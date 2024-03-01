@@ -23,7 +23,7 @@ export default function AccordionProjects() {
         {DataProjects.map((result, index) => (
           <Grid item key={index}>
             <Card
-              sx={{ maxWidth: 'sm', m: 2 }}
+              sx={{ maxWidth: 'md', m: 2 }}
             >
               <CardMedia
                 component="img"

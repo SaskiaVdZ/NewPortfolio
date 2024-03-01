@@ -3,17 +3,17 @@
         "id":1,
         "img": "/img/Icon8PolinaM.png",
         "title": "Drag and Drop Game | React, Vite",
-        "intro": "This is a 'drag and drop building' game to spark your imagination. Become the Architect of your own imaginary world. It was built as the final front end project for the course Tech for women at Sundsgården.",
+        "intro": "This is a 'drag and drop building' game to spark your imagination. Become the Architect of your own imaginary world. It was built as the final front end group project for the course Tech for women at Sundsgården.",
         "par1": "We started of by deciding on a functionality and then came up with a design. We then sketched the general user flow and set up the basic project structure and made a protype in Figma. After that we divided the different features among the members of the team to get started with the logic. The team hade weekly checkin meetings and communicated continuously on Slack and Github Projects.",
-        "par2": "Features: Drag and drop using use-gesture Create account functionality, details stored in json-server Login authentication using global state, React Context userId and position of dragged elements saved in localStorage Global state updating userId from localStorage as long as the user id logged in, to avoid state being lost on refresh, Logout function clearing global state + userId from localStorage Reset button in game to return all elements to their respective starting position Axios React routes Private routes, require login, together with useParams hook React hooks, useContect, useState, useParams, useEffect, useNavigate.",
-        "par3": "My contribution: I made the building elements and the drag and drop function using the @use-gesture library. I also made the profile page and the display of the user details, I came up with the idea of the game, the name and the design and made a prototype in Figma.",
-        "par4": "This game was built by Diana Undén, Saskia van der Zanden, Maria Persson, Nadine Dawod and Mo Wei Wu."
+        "par2": "Features: Drag and drop using use-gesture, Create account functionality, details stored in json-server, Login authentication using global state, React Context userId and position of dragged elements saved in localStorage Global state updating userId from localStorage as long as the user id logged in to avoid state being lost on refresh, Logout function clearing global state and userId from localStorage Reset button in game to return all elements to their respective starting position, Axios React routes, Private routes that require login, together with useParams hook React hooks, useContect, useState, useParams, useEffect, useNavigate.",
+        "par3": "My part: I made the building elements and the drag and drop function using the @use-gesture library. I also made the profile page and the display of the user details, I came up with the idea of the game, the name and the design and made a prototype in Figma.",
+        "par4": "This game was built by Diana Undén, Maria Persson, Nadine Dawod, Mo Wei Wu and Saskia van der Zanden."
     },
     {
         "id":2,
         "img": "/img/Icon8MarinaMogulska.png",
         "title": "Income & Expense tracker | Javascript",
-        "intro": "An app that can keep track of your income, expenses and calculate the summary and show your total balance. Built on: Javascript only",
+        "intro": "An app without interface that can keep track of your income, expenses and calculate the summary and show your total balance. Built on: Javascript only",
         "par1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget."
     },
     {
