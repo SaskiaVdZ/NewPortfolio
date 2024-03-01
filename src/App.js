@@ -8,11 +8,10 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Container from "@mui/material/Container";
-
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme, ThemeProvider, responsiveFontSizes } from "@mui/material/styles";
 import ContactFooter from "./components/Contact";
 
-const theme = createTheme({
+let theme = createTheme({
   palette: {
     primary: {
       main: "#FFFFF", //White (background navbar)
@@ -43,6 +42,7 @@ const theme = createTheme({
     borderRadius: 16,
   },
 });
+theme = responsiveFontSizes(theme);
 
 function App() {
   return (

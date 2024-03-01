@@ -12,7 +12,7 @@ function ContactFooter() {
       <Stack direction={{xs:'column', lg:'row'}} alignItems="center" spacing={{xs:'1', sm:'3'}} mt={5} mb={5}>
         <Typography textAlign="center">
           Made with <i className="fa-solid fa-heart"></i> in React and Material
-          Design UI</Typography><Typography sx={{ p: 1 }}>by Saskia van der Zanden</Typography>
+          Design UI</Typography><Typography sx={{ pl: 1 }}>by Saskia van der Zanden</Typography>
         <Stack direction={{xs:'column', sm:'row'}} alignItems="center">
           <Typography textAlign="left" sx={{ mx: 1 }}>
             <PhoneIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
