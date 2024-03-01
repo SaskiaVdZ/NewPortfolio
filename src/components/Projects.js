@@ -5,14 +5,13 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Button from "@mui/material/Button";
-import Banner from "./images/small.png";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import DataProjects from "../DataProjects.json";
-import Paper from "@mui/material/Paper";
+
 
 export default function AccordionProjects() {
   return (
@@ -36,6 +35,7 @@ export default function AccordionProjects() {
                 <AccordionSummary
                   aria-controls="panel1-content"
                   id="panel1-header"
+                  sx={{m: 2}}
                 >
                   <Stack spacing={2}>
                     <Typography variant="h4">{result.title}</Typography>
@@ -45,7 +45,7 @@ export default function AccordionProjects() {
                     <ExpandMoreIcon />
                   </Stack>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails sx={{m: 2}}>
                   <Stack spacing={2}>
                     <Typography variant="h6" align="left">
                       {result.par1}
@@ -66,11 +66,15 @@ export default function AccordionProjects() {
                     variant="contained"
                     size="large"
                     align="center"
-                    color="secondary"
+                    color="primary"
+                    sx={{m: 2}}
                   >
                     Code
                   </Button>
-                  <Button variant="outlined" size="large" align="center">
+                  <Button variant="outlined" 
+                  size="large" 
+                  align="center" 
+                  sx={{m: 2}}>
                     Live
                   </Button>
                 </AccordionActions>
@@ -79,32 +83,7 @@ export default function AccordionProjects() {
           </Grid>
         ))}
       </Grid>
-      <Paper component={Stack} direction="column" justifyContent="center"
-            style={{backgroundImage: "linear-gradient(#FBF1A9,#9CE5CA)",
-            color: "red",}}
-            
-            sx={{ width: 1/2 , height: 200}}
-    
-            ><Typography variant="h3" >REACT </Typography>
-            <Typography variant="h5">Drag 'n Drop Game</Typography></Paper>
-        <Paper component={Stack} direction="column" justifyContent="center"
-            style={{backgroundImage: "linear-gradient(#FBF1A9,#9CE5CA)",
-            color: "red",}}
-            
-            sx={{ width: 1/2 , height: 200}}
-    
-            ><Typography variant="h3" >JAVASCRIPT</Typography>
-            <Typography variant="h5">Expense & Income Tracker</Typography>
-            </Paper>
-    <Paper component={Stack} direction="column" justifyContent="center"
-            style={{backgroundImage: "linear-gradient(#FBF1A9,#9CE5CA)",
-            color: "red",}}
-            
-            sx={{ width: 1/2 , height: 200}}
-    
-            ><Typography variant="h3" >HTML, CSS & SASS</Typography>
-            <Typography variant="h5">Portfolio Website</Typography>
-            </Paper>
+     
     </>
   );
 }

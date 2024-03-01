@@ -5,7 +5,6 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
-import Banner from "./images/small.png";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import Card from "@mui/material/Card";
