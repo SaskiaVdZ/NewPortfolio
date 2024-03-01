@@ -3,7 +3,7 @@
         "id":1,
         "where": "Self-employed at FIK design courses",
         "when": "2017 – now",
-        "what": "Preparatory interior architecture & design course"
+        "what": "Preparatory Interior Architecture & Design Course"
 
     },
     {
@@ -16,13 +16,13 @@
         "id":3,
         "where": "Pihlskolan, Hällefors",
         "when": "2019 – 2020",
-        "what": "Teacher SFI, Swedish for immigrants"
+        "what": "Teacher SFI, Swedish for Immigrants"
     },
     {
         "id":4,
         "where": "Pihlskolan, Hällefors",
         "when": "2016 – 2019",
-        "what": "Teacher SVA, Swedish as a second language",
+        "what": "Teacher SVA, Swedish as a Second Language",
         "what2": "High School education"
         
     },
@@ -42,19 +42,19 @@
         "id":7,
         "where": "Hoganord Studios",
         "when": "2004 – 2009",
-        "what": "Co-owner and designer, Graphic design & Web design"
+        "what": "Co-owner and Designer, Graphic design & Web design"
     },
     {
         "id":8,
         "where": "KUUB design studio, Amsterdam",
         "when": "2001 – 2003",
-        "what": "Co-owner and interior designer"
+        "what": "Co-owner and Interior designer"
     },
     {
         "id":9,
         "where": "De Architect, Dutch architecture magazine",
         "when": "2001 – 2005",
-        "what": "Freelance writer"
+        "what": "Freelance Writer"
     }
 
 

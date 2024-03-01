@@ -3,7 +3,7 @@
         "id":1,
         "where": "Sundsgården folkhögskola",
         "when": "2023",
-        "what": "Tech for Women, Front end development, Certification"
+        "what": "Tech for Women, Front End Development, Certification"
 
     },
     {
@@ -24,25 +24,25 @@
         "where": "Gerrit Rietveld Academy, Amsterdam, Netherlands",
         "when": "1997 – 2001",
         "what": "Bachelor's degree in Interior Architecture & Spatial Design",
-        "what2": "240 credits, Cum Laude - With Honor"
+        "what2": "240 credits, Cum Laude - With Honour"
         
     },
     {
         "id":5,
         "where": "Royal Academy of Arts in The Hague, Netherlands",
         "when": "1992 – 1996",
-        "what": "Bachelor's degree in Free Arts, 240 credits"
+        "what": "Bachelor's Degree in Free Arts, 240 credits"
     },
     {
         "id":6,
         "where": "Linköping University, Sweden",
         "when": "2010",
-        "what": "Folkhögskolan's idea and pedagogy, 7.5 credits"
+        "what": "Folkhögskolan's Idea and Pedagogy, 7.5 credits"
     },
     {
         "id":7,
         "where": "Creative Coaching Association, USA",
         "when": "2012",
-        "what": "Creative coaching training, 16 weeks, Certification"
+        "what": "Creative Coaching Training, Certification"
     }
 ]
