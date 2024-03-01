@@ -33,6 +33,9 @@ const theme = createTheme({
     allVariants: {
       color: "#E7040F",
     },
+    body1: {
+      fontSize: 16,
+    },
     fontFamily: ["Inter"],
   },
 

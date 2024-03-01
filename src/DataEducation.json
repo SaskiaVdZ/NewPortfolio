@@ -10,20 +10,20 @@
         "id":2,
         "where": "freeCodeCamp",
         "when": "2023",
-        "what": "Responsive Webdesign Developer Certification"
+        "what": "Responsive Webdesign Developer, Certification"
     },
     {
         "id":3,
         "where": "KBT Svealand AB",
         "where2": "Utbildningcenter för Kognitiv Beteendeterapi",
-        "when": "2021",
+        "when": "2021, Certification",
         "what": "Introduction Course CBT, Cognitive Behavioral Therapy"
     },
     {
         "id":4,
         "where": "Gerrit Rietveld Academy, Amsterdam, Netherlands",
         "when": "1997 – 2001",
-        "what": "Bachelor's degree in Interior Architecture & Spatial Design",
+        "what": "Bachelor's Degree in Interior Architecture & Spatial Design",
         "what2": "240 credits, Cum Laude - With Honour"
         
     },
