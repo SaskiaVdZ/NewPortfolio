@@ -8,11 +8,11 @@ import 'normalize.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
   <React.StrictMode>
+    <HashRouter>
     <App />
+    </HashRouter>
   </React.StrictMode>
-  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
