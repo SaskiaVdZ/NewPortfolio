@@ -42,6 +42,7 @@ let theme = createTheme({
     borderRadius: 16,
   },
 });
+
 theme = responsiveFontSizes(theme);
 
 function App() {
