@@ -51,7 +51,7 @@ function App() {
       <Container className="App">
         <ResponsiveAppBar />
         <Routes>
-          <Route exact path="/" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="About" element={<About />} />
           <Route path="Projects" element={<Projects />} />
           <Route path="Experience" element={<Experience />} />
