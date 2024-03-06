@@ -14,7 +14,11 @@ export default function Skills() {
     <Typography variant="h3" align="center" margin="6rem 0 3rem">
         Skills
       </Typography>
-    <Grid container spacing={2} alignItems="stretch">
+    <Grid container 
+        spacing={2} 
+        direction="row"
+        justify="center"
+        alignItems="stretch">
       <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}}>
         <Paper  sx={{ backgroundColor:'primary.accent3'}}>
           <BuildIcon sx={{ mt: 4 , fontSize: '4rem' }}  />
