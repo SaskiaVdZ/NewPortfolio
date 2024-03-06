@@ -15,7 +15,7 @@ export default function Skills() {
         Skills
       </Typography>
     <Grid container 
-        spacing={2} 
+        spacing={3} 
         direction="row"
         justify="center"
         alignItems="stretch">
@@ -31,7 +31,7 @@ export default function Skills() {
         <Paper sx={{ backgroundColor:'primary.accent3'}}>
           <ConstructionRoundedIcon sx={{ mt: 4, fontSize: '4rem' }} />
           <Typography sx={{ mb: 2, p:5 }}  variant="h6">
-          Git/GitHub, Visual Studios Code, Figma, Agile work
+          Responsive Web Design, Git/GitHub, Visual Studio Code, Agile work
           </Typography>
         </Paper>
       </Grid>
@@ -39,7 +39,7 @@ export default function Skills() {
         <Paper sx={{ backgroundColor:'primary.accent3'}}>
           <LanguageRoundedIcon sx={{ mt: 4 , fontSize: '4rem'}} />
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
-          Fluent in English, Swedish and Dutch
+          Fluent in written and spoken English, Swedish and Dutch
           </Typography>
         </Paper>
       </Grid>
@@ -47,7 +47,7 @@ export default function Skills() {
         <Paper sx={{ backgroundColor:'primary.accent3'}}>
           <HandshakeRoundedIcon sx={{ mt: 4, fontSize: '4rem'  }}/>
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
-          Leadership, Mentoring and Education
+          Communication, Mentoring, Team-work, Troubleshooting, Time management
           </Typography>
         </Paper>
       </Grid>
@@ -55,7 +55,7 @@ export default function Skills() {
         <Paper sx={{ backgroundColor:'primary.accent3'}}>
           <ComputerRoundedIcon sx={{ mt: 4, fontSize: '4rem' }}/>
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
-          Photoshop, Illustrator, InDesign, Google Suite
+          Photoshop, Adobe Illustrator, InDesign, Google Suite, Figma
           </Typography>
         </Paper>
       </Grid>
@@ -63,7 +63,7 @@ export default function Skills() {
         <Paper sx={{ backgroundColor:'primary.accent3'}}>
           <BrushRoundedIcon sx={{ mt: 4, fontSize: '4rem' }}/>
           <Typography sx={{ mb: 2 , p: 5}} variant="h6">
-            Design thinking, Graphic design, Illustration
+            Design thinking, Design process, Graphic design, Illustration
           </Typography>
         </Paper>
       </Grid>

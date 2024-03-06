@@ -16,7 +16,7 @@ function MoreAbout() {
         >
         <Grid item xs={12} sm={6} md={4} style={{display: 'flex'}} 
         >
-          <Paper sx={{backgroundColor:'primary.accent3', borderRadius:'16px'}}>
+          <Paper sx={{backgroundColor:'primary.accent3'}}>
             <Typography variant="h5" padding={5}>
               I am an experienced design professional with more than 20 years of
               teaching and mentoring experience.
