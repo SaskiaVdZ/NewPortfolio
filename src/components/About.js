@@ -1,12 +1,9 @@
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
-import Banner from "./images/Banner3.png";
 import Portrait from "./images/PortraitOne.jpg";
 import MoreAbout from "./MoreAbout";
 import Typewriter from "typewriter-effect";
-import CardMedia from "@mui/material/CardMedia";
 import { Avatar } from "@mui/material";
 
 function About() {
@@ -14,17 +11,6 @@ function About() {
     <>
       <Grid container justify="center" overflow="hidden">
         <Grid item sx={{ mt: 5, mb: 6 }}>
-          <Paper
-            sx={{ backgroundColor: "primary.accent1", borderRadius: "8px" }}
-            elevation={0}
-          >
-            <CardMedia
-              sx={{ borderRadius: "8px" }}
-              component="img"
-              height="400"
-              image={Banner}
-              alt="Floating components"
-            />
             <Typewriter
               className="Type"
               options={{
@@ -39,7 +25,13 @@ function About() {
               }}
             />
             <Stack direction="column" alignItems="flex-end">
-              <Typography variant="h4" textAlign="left" padding={5}>
+              <Avatar
+                alt="Saskia van der Zanden"
+                src={Portrait}
+                sx={{ width: 100, height: 100, mr: 7, mb: 3 }}
+              />
+            </Stack>
+          <Typography variant="h4" textAlign="left" padding={5}>
                 I am a curious junior front-end developer who just finished a
                 full-time accelerated vocational course at Sundsgården
                 folkhögskola: IT/Tech for women - Front end Development. I&#39;m
@@ -47,13 +39,6 @@ function About() {
                 and looking forward to dive into Data Visualisation D3.js at the
                 New York University, shortly.
               </Typography>
-              <Avatar
-                alt="Saskia van der Zanden"
-                src={Portrait}
-                sx={{ width: 100, height: 100, mr: 7, mb: 3 }}
-              />
-            </Stack>
-          </Paper>
         </Grid>
       </Grid>
       <MoreAbout />
