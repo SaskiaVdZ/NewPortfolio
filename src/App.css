@@ -13,5 +13,9 @@
 }
 
 a:hover{
-  border-bottom: 2px dashed red
+  border-bottom: 2px dashed red;
 } 
+
+.MuiButtonBase-root:hover {
+  border-bottom: none;
+}
