@@ -94,9 +94,7 @@ function ResponsiveAppBar() {
               >
                 <Link 
                 style={{textDecoration:"none", color: "#E7040F", fontSize:"16px"}} //Links navbar
-                    
                     to={`/${page}`}>
-
                     {page}
                     </Link>
               </Button>

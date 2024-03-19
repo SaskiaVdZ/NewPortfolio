@@ -68,13 +68,19 @@ export default function AccordionProjects() {
                     align="center"
                     color="primary"
                     sx={{m: 2}}
+                    href= {result.code}
+                    target="_blank" 
+                    rel="noopener"
                   >
                     Code
                   </Button>
-                  <Button variant="outlined" 
+                  <Button variant="contained"
                   size="large" 
-                  align="center" 
-                  sx={{m: 2}}>
+                  align="center"
+                  sx={{color: "#E7040F", m: 2}} 
+                  href= {result.live}
+                  target="_blank" 
+                  rel="noopener">
                     Live
                   </Button>
                 </AccordionActions>
