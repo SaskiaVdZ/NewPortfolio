@@ -13,25 +13,6 @@
     },
     {
         "id":2,
-        "img": "./img/Icon8MarinaMogulska.png",
-        "title": "Income & Expense tracker | Javascript",
-        "intro": "An app without interface that can keep track of your income, expenses and calculate the summary and show your total balance. Built on: Javascript only",
-        "par1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
-        "live": "https://saskiavdz.github.io/expenseTracker/",
-        "code": "https://github.com/SaskiaVdZ/expenseTracker/blob/master/script.js"
-        
-    },
-    {
-        "id":3,
-        "img": "./img/Icon8.png",
-        "title": "Genesis Portfolio | HTML + CSS + Sass",
-        "intro": "One of the first projects I did. Doing this assignment we learned how to use Sass, using variables and mixins and how to use flexbox and grids. A front end project for the Tech for women course at Sundsgården. Built on: HTML, CSS, Figma",
-        "par1": "Genesis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
-        "live": "https://saskiavdz.github.io/GenesisPortfolio-lesson11/index.html",
-        "code": "https://github.com/SaskiaVdZ/GenesisPortfolio-lesson11/blob/master/index.html"
-    },
-    {
-        "id":4,
         "img": "./img/CalcuAni.gif",
         "title": "Budget App | React + Material UI",
         "intro": "One of the first projects I did. Doing this assignment we learned how to use Sass, using variables and mixins and how to use flexbox and grids. A front end project for the Tech for women course at Sundsgården. Built on: HTML, CSS, Figma",
@@ -40,31 +21,22 @@
         "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
     },
     {
-        "id":5,
-        "img": "./img/RobotGallery.gif",
-        "title": "Budget App | React + Material UI",
-        "intro": "One of the first projects I did. Doing this assignment we learned how to use Sass, using variables and mixins and how to use flexbox and grids. A front end project for the Tech for women course at Sundsgården. Built on: HTML, CSS, Figma",
-        "par1": "Meditation budget app Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
-        "live": "https://minibudgetapp.net",
-        "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
-    },
-    {
-        "id":6,
+        "id":3,
         "img": "./img/ClassicArts.png",
-        "title": "Budget App | React + Material UI",
+        "title": "Genesis Portfolio | HTML + CSS + Sass",
         "intro": "One of the first projects I did. Doing this assignment we learned how to use Sass, using variables and mixins and how to use flexbox and grids. A front end project for the Tech for women course at Sundsgården. Built on: HTML, CSS, Figma",
-        "par1": "Meditation budget app Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
-        "live": "https://minibudgetapp.net",
-        "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
+        "par1": "Genesis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "live": "https://saskiavdz.github.io/GenesisPortfolio-lesson11/index.html",
+        "code": "https://github.com/SaskiaVdZ/GenesisPortfolio-lesson11/blob/master/index.html"
     },
     {
-        "id":7,
+        "id":4,
         "img": "./img/Piggy.png",
-        "title": "Budget App | React + Material UI",
-        "intro": "One of the first projects I did. Doing this assignment we learned how to use Sass, using variables and mixins and how to use flexbox and grids. A front end project for the Tech for women course at Sundsgården. Built on: HTML, CSS, Figma",
-        "par1": "Meditation budget app Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
-        "live": "https://minibudgetapp.net",
-        "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
+        "title": "Income & Expense tracker | Javascript",
+        "intro": "An app without interface that can keep track of your income, expenses and calculate the summary and show your total balance. Built on: Javascript only",
+        "par1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "live": "https://saskiavdz.github.io/expenseTracker/",
+        "code": "https://github.com/SaskiaVdZ/expenseTracker/blob/master/script.js"
     }
 
 ]

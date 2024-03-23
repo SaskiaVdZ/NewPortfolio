@@ -39,7 +39,7 @@ export default function Skills() {
         <Paper sx={{ backgroundColor:'primary.accent3'}}>
           <LanguageRoundedIcon sx={{ mt: 4 , fontSize: '4rem'}} />
           <Typography sx={{ mb: 2, p: 5 }} variant="h6">
-          Fluent in written and spoken English, Swedish and Dutch
+          Fluent in spoken and written English, Swedish and Dutch
           </Typography>
         </Paper>
       </Grid>
