@@ -17,20 +17,20 @@ let theme = createTheme({
       main: "#FFFFF", //White (background navbar)
       accent1: "#FBF1A9", // Light-yellow
       accent2: "#E8FDF5", //Washed-green
-      accent3: "#FFDFDF", //Washed-Red
+      accent3: "#FFEFEF", //Washed-Red
       accent4: "#E0DAFC", //Light purple
       accent5: "#9CE5CA", //Mint-green
       accent6: "#FFD700", // Dark-yellow
     },
 
     text: {
-      primary: "#E7040F",
+      primary: "#E0000B",
     },
   },
 
   typography: {
     allVariants: {
-      color: "#E7040F",
+      color: "#E0000B",
     },
     body1: {
       fontSize: 16,

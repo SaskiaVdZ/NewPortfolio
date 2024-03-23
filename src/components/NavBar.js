@@ -45,9 +45,9 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="#E7040F"
+              color="#E0000B"
             >
-              <MenuIcon sx={{color: "#E7040F"}} />
+              <MenuIcon sx={{color: "#E0000B"}} />
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -72,7 +72,7 @@ function ResponsiveAppBar() {
                   <Typography textAlign="center">
                     
                     <Link
-                    style={{textDecoration:"none", color: "#E7040F"}}
+                    style={{textDecoration:"none", color: "#E0000B"}}
                     
                     to={`/${page}`}>
 
@@ -90,10 +90,10 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#E7040F', display: 'block' }}
+                sx={{ my: 2, color: '#E0000B', display: 'block' }}
               >
                 <Link 
-                style={{textDecoration:"none", color: "#E7040F", fontSize:"16px"}} //Links navbar
+                style={{textDecoration:"none", color: "#E0000B", fontSize:"16px"}} //Links navbar
                     to={`/${page}`}>
                     {page}
                     </Link>
@@ -102,7 +102,7 @@ function ResponsiveAppBar() {
           </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, color: "#E7040F" }}>
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, color: "#E0000B" }}>
               </IconButton>
             </Tooltip>
           </Box>

@@ -16,20 +16,20 @@ function ContactFooter() {
           <Typography textAlign="left" sx={{ mx: 1 }}>
             <PhoneIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
             <Obfuscate
-              style={{ textDecoration: "none", color: "red" }}
+              style={{ textDecoration: "none", color: "#E0000B" }}
               tel="073-8422905"
             />
           </Typography>
           <Typography textAlign="left" sx={{ mx: 1 }} >
             <EmailIcon fontSize="small" style={{verticalAlign:"middle"}} />{" "}
             <Obfuscate
-              style={{ textDecoration: "none", color: "red" }}
+              style={{ textDecoration: "none", color: "#E0000B" }}
               email="saskiavanderzanden@gmail.com"
             />
           </Typography>
           <Typography variant="h6" textAlign="left" sx={{ mx: 1 }} >
             <Link
-              style={{ textDecoration: "none", color: "red" }}
+              style={{ textDecoration: "none", color: "#E0000B" }}
               to="https://github.com/SaskiaVdZ"
               target="_blank"
               rel="noreferrer"
@@ -38,7 +38,7 @@ function ContactFooter() {
               <i className="fa-brands fa-github"></i>
             </Link>
             <Link
-              style={{ textDecoration: "none", color: "red" }}
+              style={{ textDecoration: "none", color: "#E0000B" }}
               to="https://www.linkedin.com/in/saskia-van-der-zanden-2b036b72/"
               target="_blank"
               rel="noreferrer"

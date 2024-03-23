@@ -8,12 +8,12 @@
 
 .Typewriter {
   font-size: 70px;
-  color: #E7040F;
+  color: #E0000B;
   padding: 4rem;
 }
 
 a:hover{
-  border-bottom: 2px dashed red;
+  border-bottom: 2px dashed #E0000B;
 } 
 
 .MuiButtonBase-root:hover {

@@ -77,7 +77,7 @@ export default function AccordionProjects() {
                   <Button variant="contained"
                   size="large" 
                   align="center"
-                  sx={{color: "#E7040F", m: 2}} 
+                  sx={{color: "#E0000B", m: 2}} 
                   href= {result.live}
                   target="_blank" 
                   rel="noopener">

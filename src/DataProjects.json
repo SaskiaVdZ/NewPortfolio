@@ -8,7 +8,7 @@
         "par2": "Features: Drag and drop using use-gesture, Create account functionality, details stored in json-server, Login authentication using global state, React Context userId and position of dragged elements saved in localStorage Global state updating userId from localStorage as long as the user id logged in to avoid state being lost on refresh, Logout function clearing global state and userId from localStorage Reset button in game to return all elements to their respective starting position, Axios React routes, Private routes that require login, together with useParams hook React hooks, useContect, useState, useParams, useEffect, useNavigate.",
         "par3": "My part: I made the building elements and the drag and drop function using the @use-gesture library. I also made the profile page and the display of the user details, I came up with the idea of the game, the name and the design and made a prototype in Figma.",
         "par4": "This game was built by Diana Undén, Maria Persson, Nadine Dawod, Mo Wei Wu and Saskia van der Zanden.",
-        "live": "https://main--transcendent-sprite-f582b0.netlify.app/",
+        "live": "https://imaginarium-game.netlify.app/",
         "code": "https://github.com/SaskiaVdZ/sundsgarden_game_dragndrop/blob/main/src/pages/GamePage.jsx"
     },
     {
