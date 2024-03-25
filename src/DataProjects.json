@@ -9,7 +9,7 @@
         "par3": "My part: I made the building elements and the drag and drop function using the @use-gesture library. I also made the profile page and the display of the user details and hard-coded the login for deployment reasons. I came up with the idea of the game, the name and the design and made a prototype in Figma.",
         "par4": "Illustration by Polina M from Ouch!",
         "live": "https://imaginarium-game.netlify.app/",
-        "code": "https://github.com/SaskiaVdZ/sundsgarden_game_dragndrop/blob/main/src/pages/GamePage.jsx"
+        "code": "https://github.com/SaskiaVdZ/sundsgarden_game_dragndrop"
     },
     {
         "id":2,
@@ -19,7 +19,7 @@
         "par1": "Built on: React and Material UI",
         "par2": "Illustration by Elisabeth Guba from Ouch!",
         "live": "https://minibudgetapp.netlify.app/", 
-        "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
+        "code": "https://github.com/SaskiaVdZ/BudgetApp/tree/main"
     },
     {
         "id":3,
@@ -29,7 +29,7 @@
         "par2": "Built on: HTML, CSS, Figma",
         "par3": "Illustration by Xopolin from Ouch!",
         "live": "https://saskiavdz.github.io/GenesisPortfolio-lesson11/index.html",
-        "code": "https://github.com/SaskiaVdZ/GenesisPortfolio-lesson11/blob/master/index.html"
+        "code": "https://github.com/SaskiaVdZ/GenesisPortfolio-lesson11"
     },
     {
         "id":4,
@@ -39,7 +39,7 @@
         "par1": "Built on: Javascript only",
         "par2": "Illustration by Anna A from Ouch!", 
         "live": "https://saskiavdz.github.io/expenseTracker/",
-        "code": "https://github.com/SaskiaVdZ/expenseTracker/blob/master/script.js"
+        "code": "https://github.com/SaskiaVdZ/expenseTracker"
     }
 
 ]
