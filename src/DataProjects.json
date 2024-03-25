@@ -18,7 +18,7 @@
         "intro": "With this project I wanted to take my previous Expense tracker project made in Javascript a little further and made a mini budget app in React with an interface, a listing and summary function and the option to delete input.",
         "par1": "Built on: React and Material UI",
         "par2": "Illustration by Elisabeth Guba from Ouch!",
-        "live": "https://minibudgetapp.net",
+        "live": "https://minibudgetapp.netlify.app/", 
         "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
     },
     {
