@@ -7,6 +7,7 @@
         "par1": "We started of by deciding on a functionality and then came up with a design. We then sketched the general user flow and set up the basic project structure and made a protype in Figma. After that we divided the different features among the members of the team to get started with the logic. The team hade weekly checkin meetings and communicated continuously on Slack and Github Projects.",
         "par2": "Features: Drag and drop using use-gesture, Create account functionality, details stored in json-server, Login authentication using global state, React Context userId and position of dragged elements saved in localStorage Global state updating userId from localStorage as long as the user id logged in to avoid state being lost on refresh, Logout function clearing global state and userId from localStorage Reset button in game to return all elements to their respective starting position, Axios React routes, Private routes that require login, together with useParams hook React hooks, useContect, useState, useParams, useEffect, useNavigate.",
         "par3": "My part: I made the building elements and the drag and drop function using the @use-gesture library. I also made the profile page and the display of the user details and hard-coded the login for deployment reason. I came up with the idea of the game, the name and the design and made a prototype in Figma.",
+        "par4": "Illustration by Polina M from Ouch!",
         "live": "https://imaginarium-game.netlify.app/",
         "code": "https://github.com/SaskiaVdZ/sundsgarden_game_dragndrop/blob/main/src/pages/GamePage.jsx"
     },
@@ -16,6 +17,7 @@
         "title": "Budget App | React + Material UI",
         "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
         "par1": "Meditation budget app Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "par2": "Illustration by Elisabeth Guba from Ouch!",
         "live": "https://minibudgetapp.net",
         "code": "https://github.com/SaskiaVdZ/BudgetApp/blob/main/src/Components/InputForm.js"
     },
@@ -25,6 +27,7 @@
         "title": "Genesis Portfolio | HTML + CSS + Sass",
         "intro": "One of the first projects I did. Doing this assignment we learned how to use Sass, using variables and mixins and how to use flexbox and grids. A front end project for the Tech for women course at Sundsgården. Built on: HTML, CSS, Figma",
         "par1": "Genesis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "par2": "Illustration by Xopolin from Ouch!",
         "live": "https://saskiavdz.github.io/GenesisPortfolio-lesson11/index.html",
         "code": "https://github.com/SaskiaVdZ/GenesisPortfolio-lesson11/blob/master/index.html"
     },
@@ -34,6 +37,7 @@
         "title": "Income & Expense tracker | Javascript",
         "intro": "An app without interface that can keep track of your income, expenses and calculate the summary and show your total balance. Built on: Javascript only",
         "par1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendissemalesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "par2": "Illustration by Anna A from Ouch!",
         "live": "https://saskiavdz.github.io/expenseTracker/",
         "code": "https://github.com/SaskiaVdZ/expenseTracker/blob/master/script.js"
     }
