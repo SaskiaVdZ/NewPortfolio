@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
-import Portrait from "./images/PortraitOne.jpg";
+import Portrait from "./images/PortraitS.webp";
 import MoreAbout from "./MoreAbout";
 import Typewriter from "typewriter-effect";
 import { Avatar } from "@mui/material";
@@ -28,7 +28,7 @@ function About() {
               <Avatar
                 alt="Saskia van der Zanden"
                 src={Portrait}
-                sx={{ width: 100, height: 100, mr: 7, mb: 3 }}
+                sx={{ width: 150, height: 150, mr: 7, mb: 3 }}
               />
             </Stack>
           <Typography variant="h4" textAlign="left" padding={5}>
